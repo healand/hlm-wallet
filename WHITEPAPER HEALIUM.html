@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://healium.co.kr/pages/en.php -->
+<html lang="ko" style="--nav-level-spacing:40px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HEALIUM</title>
+    <meta name="description" content="JavaScript library for creating toggled off-canvas multi-level navigations, allowing endless nesting of submenu elements, supporting swipe gestures, keyboard interactions and ARIA attributes.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   
+    <link rel="stylesheet" href="./HEALIUM_files/icon">
+    <link rel="stylesheet" href="./HEALIUM_files/css">
+    <link rel="stylesheet" href="./HEALIUM_files/demo.css">
+    <script src="./HEALIUM_files/jquery-3.5.1.slim.min.js.다운로드"></script>
+    <script src="./HEALIUM_files/hc-offcanvas-nav.js.다운로드"></script>
+  <style id="hc-offcanvas-1-style">.hc-offcanvas-nav.hc-nav-1 { display: block; }
+.hc-nav-original.hc-nav-1 { display: none; }
+.hc-nav-trigger.hc-nav-1 { display: block; }
+.hc-offcanvas-nav.hc-nav-1 .nav-container { width: 280px; }
+.hc-offcanvas-nav.hc-nav-1.nav-position-left .nav-container { transform: translate3d(-280px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-position-right .nav-container { transform: translate3d(280px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-position-top .nav-container { transform: translate3d(0, -880px, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-position-bottom .nav-container { transform: translate3d(0, 880px, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-left li.level-open > .nav-wrapper { transform: translate3d(-40px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-right li.level-open > .nav-wrapper { transform: translate3d(40px, 0, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-top li.level-open > .nav-wrapper { transform: translate3d(0, -40px, 0); }
+.hc-offcanvas-nav.hc-nav-1.nav-levels-overlap.nav-position-bottom li.level-open > .nav-wrapper { transform: translate3d(0, 40px, 0); }
+</style></head>
+
+  <body class="theme-default"><nav id="hc-nav-1" class="hc-offcanvas-nav hc-nav-1 nav-levels-expand nav-position-left nav-close-button-empty nav-open" aria-hidden="false" aria-labelledby="hc-nav-1-nav-title" style="visibility: visible;"><div class="nav-container" style=""><div class="nav-wrapper nav-wrapper-0" data-level="0" data-index="0"><div class="nav-content"><h2 id="hc-nav-1-nav-title" class="nav-title">WHITEPAPER</h2><div class="nav-close"><a href="http://healium.co.kr/pages/en.php#" class="nav-close-button" role="menuitem" tabindex="0" aria-label="Close Menu"><span></span></a></div><ul role="menu" aria-level="1" class="first-nav"><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-1-0" class="hc-chk" tabindex="-1" data-level="1" data-index="0" value="zxaiyb1c43h"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#1" rel="noreferrer" target="_self" class="nav-item-link" tabindex="0" role="menuitem">1. Introduction</a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 1. Introduction" role="menuitem" tabindex="0" aria-controls="menu-zxaiyb1c43h" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="0"><div class="nav-content"><ul id="menu-zxaiyb1c43h" role="menu" aria-level="2"><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#1a" class="nav-item-link" tabindex="0" role="menuitem">1.1 Health care status</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#1b" class="nav-item-link" tabindex="0" role="menuitem">1.2 Problems of the current medical information system</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#1c" class="nav-item-link" tabindex="0" role="menuitem">1.3 Features of blockchain technology</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#1d" class="nav-item-link" tabindex="0" role="menuitem">1.4 Birth of HEALIUM coin</a></div></li></ul></div></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-1-1" class="hc-chk" tabindex="-1" data-level="1" data-index="1" value="6v7n5dmtnyy"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#2" class="nav-item-link" tabindex="0" role="menuitem">2. Features of HEALIUM coin</a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 2. Features of HEALIUM coin" role="menuitem" tabindex="0" aria-controls="menu-6v7n5dmtnyy" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="1"><div class="nav-content"><ul id="menu-6v7n5dmtnyy" role="menu" aria-level="2"><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-2-0" class="hc-chk" tabindex="-1" data-level="2" data-index="0" value="c2axr6ba7nt"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#2a" class="nav-item-link" tabindex="0" role="menuitem">2.1 Purpose of HEALIUM coin</a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 2.1 Purpose of HEALIUM coin" role="menuitem" tabindex="0" aria-controls="menu-c2axr6ba7nt" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="0"><div class="nav-content"><ul id="menu-c2axr6ba7nt" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#2aa" class="nav-item-link" tabindex="0" role="menuitem">2.1.1 Use of HEALIUM Coin (Genomic India Project)</a></div></li></ul></div></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#2b" class="nav-item-link" tabindex="0" role="menuitem">2.2 Blockchain application scope </a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#2c" class="nav-item-link" tabindex="0" role="menuitem">2.3 Personal information verification process</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#2d" class="nav-item-link" tabindex="0" role="menuitem">2.4 Data utilization and reward system</a></div></li></ul></div></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-1-2" class="hc-chk" tabindex="-1" data-level="1" data-index="2" value="gtw7guk2256"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3" class="nav-item-link" tabindex="0" role="menuitem">3.	Ecosystem construction of HEALIUM coin </a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 3.	Ecosystem construction of HEALIUM coin" role="menuitem" tabindex="0" aria-controls="menu-gtw7guk2256" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="2"><div class="nav-content"><ul id="menu-gtw7guk2256" role="menu" aria-level="2"><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-2-1" class="hc-chk" tabindex="-1" data-level="2" data-index="1" value="ulqk8koqkde"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3a" class="nav-item-link" tabindex="0" role="menuitem">3.1 Genetic test </a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 3.1 Genetic test" role="menuitem" tabindex="0" aria-controls="menu-ulqk8koqkde" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="1"><div class="nav-content"><ul id="menu-ulqk8koqkde" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3aa" class="nav-item-link" tabindex="0" role="menuitem">3.1.1 Genetic test market </a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3ad" class="nav-item-link" tabindex="0" role="menuitem">3.1.4 Pan-Brain Health &amp; Mental Health Disease Test (Genetic Test + Psychological Test)</a></div></li></ul></div></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-2-2" class="hc-chk" tabindex="-1" data-level="2" data-index="2" value="e7ppcfufw1"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3b" class="nav-item-link" tabindex="0" role="menuitem">3.2 Functional medicine test</a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 3.2 Functional medicine test" role="menuitem" tabindex="0" aria-controls="menu-e7ppcfufw1" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-2" data-level="2" data-index="2"><div class="nav-content"><ul id="menu-e7ppcfufw1" role="menu" aria-level="3"><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3ba" class="nav-item-link" tabindex="0" role="menuitem">3.2.1 Features of functional medicine test  </a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3bb" class="nav-item-link" tabindex="0" role="menuitem">3.2.2 Microbiome</a></div></li></ul></div></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#3c" class="nav-item-link" tabindex="0" role="menuitem">3.3 Information sharing platform  </a></div></li></ul></div></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-1-3" class="hc-chk" tabindex="-1" data-level="1" data-index="3" value="hnnbamgy60j"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#4" class="nav-item-link" tabindex="0" role="menuitem">4. Where to use</a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 4. Where to use" role="menuitem" tabindex="0" aria-controls="menu-hnnbamgy60j" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="3"><div class="nav-content"><ul id="menu-hnnbamgy60j" role="menu" aria-level="2"><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#4a" class="nav-item-link" tabindex="0" role="menuitem">4.1 Genetic analysis  </a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#4b" class="nav-item-link" tabindex="0" role="menuitem">4.2 Use within community</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#4c" class="nav-item-link" tabindex="0" role="menuitem">4.3 Donation to International Association of Incurable Diseases </a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#4d" class="nav-item-link" tabindex="0" role="menuitem">4.4 Collaboration with medical institutions </a></div></li></ul></div></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#5" class="nav-item-link" tabindex="0" role="menuitem">5. HEALIUM Coin Ecosystem</a></div></li><li class="nav-item nav-parent"><input type="checkbox" id="hc-nav-1-1-4" class="hc-chk" tabindex="-1" data-level="1" data-index="4" value="d0kps72i24"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#6" class="nav-item-link" tabindex="0" role="menuitem">6. Metaverse project linked to health and information management system</a><a href="http://healium.co.kr/pages/en.php#" class="nav-next" aria-label="Submenu: 6. Metaverse project linked to health and information management system" role="menuitem" tabindex="0" aria-controls="menu-d0kps72i24" aria-haspopup="false" aria-expanded="false"><span></span></a></div><div class="nav-wrapper nav-wrapper-1" data-level="1" data-index="4"><div class="nav-content"><ul id="menu-d0kps72i24" role="menu" aria-level="2"><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#6a" class="nav-item-link" tabindex="0" role="menuitem">6.1 Bio-Metaverse  </a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#6b" class="nav-item-link" tabindex="0" role="menuitem">6.2 Detailed project plan</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#6c" class="nav-item-link" tabindex="0" role="menuitem">6.3 Expected effect </a></div></li></ul></div></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#7" class="nav-item-link" tabindex="0" role="menuitem">7. HEALIUM ROAD MAP</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#8" class="nav-item-link" tabindex="0" role="menuitem">8. TEAM MEMBERS</a></div></li><li class="nav-item"><div class="nav-item-wrapper"><a href="http://healium.co.kr/pages/en.php#9" class="nav-item-link" tabindex="0" role="menuitem">9.	Legal Notice, Disclaimer &amp; Limitation of Liability</a></div></li></ul><ul role="menu" aria-level="1" class="bottom-nav"><li class="nav-item ko-fi"><div class="nav-item-wrapper"><a href="http://healium.co.kr/" rel="noreferrer" target="_self" class="nav-item-link" tabindex="0" role="menuitem">
+                  <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px"><path d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"></path></svg>
+                </a></div></li></ul></div></div></div></nav>
+
+    <div id="container">
+
+      <header>
+
+        <div class="wrapper cf">
+
+        
+<style>
+  html{
+	scroll-behavior: smooth;
+}
+ /* 정렬 */
+    .textc {text-align:center;}
+    .textl {text-align:left;}
+    .textr {text-align:right;}
+    /* flex */
+    .flexnw {display:flex; flex-wrap: nowrap;}
+    .flexw {display:flex; flex-wrap: wrap;}
+    .disblock {display:block;}
+    .flex10 {width:10%;}
+    .flex20 {width:20%;}
+    .flex25 {width:25%;}
+    .flex30 {width:30%;}
+    .flex33 {width:33%;}
+    .flex40 {width:40%;}
+    .flex50 {width:50%;}
+    .flex60 {width:60%;}
+    .flex70 {width:70%;}
+    .flex80 {width:80%;}
+    .flex90 {width:90%;}
+    .flex100 {width:100%;}
+    .flexjud {justify-content:default;}
+    .flexjue {justify-content:flex-end;}
+    .flexjuc {justify-content:center;}
+    .flexjub {justify-content:space-between;}
+    .flexjua {justify-content:space-around;}
+    .flexjuo {justify-content:space-evenly;}
+    .flexitemst {align-items:flex-start;}
+    .flexitemsb {align-items:flex-end;}
+    .flexitemsc {align-items:center;}
+    .flexitemsb {align-items:baseline;}
+    .flexitemsd {align-items:default;}
+    /* font size */
+    .font10 {font-size:10px;}
+    .font15 {font-size:15px;}
+    .font16 {font-size:16px;}
+    .font17 {font-size:17px;}
+    .font18 {font-size:18px;}
+    .font19 {font-size:19px;}
+    .font20 {font-size:20px;}
+    .font21 {font-size:21px;}
+    .font22 {font-size:22px;}
+    .font23 {font-size:23px;}
+    .font24 {font-size:24px;}
+    .font25 {font-size:25px;}
+    .font26 {font-size:26px;}
+    .font27 {font-size:27px;}
+    .font28 {font-size:28px;}
+    .font29 {font-size:29px;}
+    .font30 {font-size:30px;}
+    .font35 {font-size:35px;}
+    .font40 {font-size:40px;}
+    .font45 {font-size:45px;}
+    .font50 {font-size:50px;}
+    /* font weight */
+    .fontw100 {font-weight:100;}
+    .fontw200 {font-weight:200;}
+    .fontw300 {font-weight:300;}
+    .fontw400 {font-weight:400;}
+    .fontw500 {font-weight:500;}
+    .fontw550 {font-weight:550;}
+    .fontw600 {font-weight:600;}
+    .fontw650 {font-weight:650;}
+    .fontw700 {font-weight:700;}
+    /* 줄간격 */
+    .lineh1 {line-height:1em;}
+    .lineh2 {line-height:2em;}
+    .lineh3 {line-height:3em;}
+    .lineh4 {line-height:4em;}
+    .lineh5 {line-height:5em;}
+    .lineh6 {line-height:6em;}
+    .lineh7 {line-height:7em;}
+    /* 기px색상 */
+    .cored {color:red;}
+    .coblue {color:blue;}
+    .cogreen {color:green;}
+    .co000 {color:#000;}
+    .cofff {color:#fff;}
+    .bgred {background-color:red;}
+    .bgblue {background-color:blue;}
+    .bggreen {background-color:green;}
+    .bg000 {background-color:#000;}
+    .bgfff {background-color:#fff;}
+    /* 테스트 박스 */
+    .testbor {border:1px solid red;}
+    /* 가운데 밑줄 */
+    .linec:after {content: "";display: block;width: 60px;border-bottom: 3px solid #bcbcbc;margin: 0px auto;}
+    /* 폰트 변경 */
+    .ffam {font-family: 'NEXON Lv2 Gothic', sans-serif !important;}
+    .posir {position: relative;}
+    .posia {position: absolute;}
+    .posif {position: fixed;}
+
+    .top1 {font-size:30px; font-weight:700; text-align:left; padding-bottom:25px;}
+    .top2 {font-size:25px; font-weight:700; text-align:left; padding-bottom:25px;}
+    .top3 {font-size:20px; font-weight:700; text-align:left; padding-bottom:25px;}
+    .cont1 {font-size:15px; font-weight:400; text-align:left;}
+    .topimg1 {width:50%; margin-bottom:50vh;margin-top:10vh;}
+    .topimg2 {width:100%;}
+    .topmarp {margin-top:5%;}
+    .subt1 {border-top:1px solid blue;border-bottom:1px solid blue; font-size:20px; padding:2% 0;}
+    .subd1 { margin:0% 10%;}
+    .toggl1 {top:4px !important;left:0px;}
+    .dotli li { list-style-type : disc; text-align:left; }
+    .flex40 b{font-size:25px;}
+
+@media (max-width:767px) {
+  .topimg1 {width:100%}
+  .toggl1 {top:4px !important;right:0px;}
+  .flex40 {width:50%;}
+  .flex60 {width:100%; margin-bottom:30px;}
+
+  
+    }
+</style>
+<div class="posif" style="width:100%; height:45px;; top:0px; left:0px; background:rgba(255,255,255,1);box-shadow: 0px 0px 10px #000;">
+    
+    <a class="toggle posif toggl1 hc-nav-trigger hc-nav-1" href="http://healium.co.kr/pages/en.php#" style="" role="button" aria-label="Open Menu" aria-controls="hc-nav-1" aria-expanded="false"><span></span>
+    </a>
+    <div class="posia fontw700 font20" style="top:5px; left:50%; color:#333;transform:translate(-50%, 7%);"><a href="http://healium.co.kr/pages/en.php#top" style="text-decoration: none;color: inherit; ">WHITEPAPER</a></div>
+  </div>  
+
+<img id="top" src="./HEALIUM_files/healium_logo_w.png" style="display:inline;" class="topimg1">
+<h2 class="textr">White Paper<br> Version 0.6<br>English<br></h2>
+
+<div id="1" class="top1 topmarp">1. Introduction</div>
+<div class="cont1">
+'It is myself who knows my body best.' There are still people who think like this, and sometimes people go against medical diagnosis. Although it is my body, can I know of diseases caused by genes?<br><br>
+
+In a book called 'The Story of Nic Volker', there comes an example of a child who had received more than 100 surgeries because of an intestinal inflammation disease who finally found out the cause of the disease through genome test. This was recorded as the first case in which an incurable disease of unknown cause was cured by genome medicine. We cannot see things that are too big like the universe, nor things that are too small like genes. Human sensory cognitive ability only allows people to obtain partial information about the middle world, which is neither large nor small.<br><br>
+
+Observing the trends in modern medicine, we can see the three keywords: prevention, customization, and participation. By the way, these three keywords are all related with the medicine which becomes data science. Cases of domestic venture companies that use genome information as advanced medicine show well this phenomenon.<br><br>
+
+In December 2019, the first COVID-19 patient was identified and since then this disease has spread to throughout the world at a terrific rate. WHO (World Health Organization) declared COVID-19 as pandemic (Pandemic is the highest warning grade for infectious disease declared by WHO). This was the third pandemic declaration of WHO since its foundation. Due to the sudden spread of the infectious disease, all countries around the world, including Korea, fell into confusion.<br><br>
+
+Because of the fast spread of COVID-19, non-face-to-face service has been developing very rapidly in all areas of life. Many people are also interested in their own health, so, the level of awareness of health care is becoming considerably higher. Therefore, the proportion of non-face-to-face personal health care services and businesses in the Post COVID-19 era is expected to increase.<br><br>
+
+The expectations for non-face-to-face health care services are growing but the current non-face-to-face health care service platform in Korea is insufficient. According to the survey of 'Public Opinion within Public Opinions, Hankook Research', the' medical 'field was ranked first among the fields that are likely to experience the most difficulties among the online and non-face-to-face services in COVID-19 era. We can say that it is evidence of the need to develop an easy-to-use and user-friendly non-face-to-face healthcare service platform.<br><br>
+
+  
+
+</div>
+<div id="1a" class="top2 topmarp">&nbsp;&nbsp;&nbsp;1.1 Health care status</div>
+<div class="cont1">
+We can divide health care into healthcare 1.0 era, healthcare 2.0 era, and healthcare 3.0 era.<br><br>
+
+First, the healthcare 1.0 era was from the 18th century to the early 20th century, and the main purpose in this period was to prevent infectious diseases. People focused on identifying the causes of infectious diseases and developing vaccines and treatments to prevent them.<br>
+With the beginning of the 20th century, the health care 2.0 era started.  As the global economy and the medical industry develop, each country began to have a medical service system, and its main purpose was to treat diseases.<br><br>
+During the healthcare 3.0 era that started after the 21st century, the focus changed from ‘disease treatment’ in the existing health care 2.0 era to ‘disease prevention’ and ‘health management’. This means a change from reactive and ex post facto health care to predictive and preventive health care, and the characteristics of personalized medicine and participatory medicine depending on individual characteristics are emphasized. Also, as mentioned earlier, the change to a non-face-to-face society is accelerating due to the COVID-19 pandemic. Therefore, the medical industry is also showing a change from the existing diagnosis, treatment, and hospital-centered health care to a non-face-to-face, consumer-centered health care based on digital technology. This indicates that the medical industry will develop with the active participation of active individuals.
+<br><br>
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img01.png" style="" class="topimg2">Figure 1. Health care 3.0 era<br><br>
+  </div>
+  'Data' emerges as an important element in the healthcare paradigm shift that pursues disease prevention and health promotion. And it is essential to combine medical services with digital technology to collect, store and analyze data. A new industry that combines medical services, digital technology, and ICT is called ‘digital health’ or ‘digital healthcare’, which is to develop traditional treatment in hospital space into an intelligent medical solution that people can enjoy regardless of time and space.<br><br>
+
+The biggest feature of digital healthcare is that people can receive health care anytime, anywhere by using various advanced information and communication technologies. The latest ICT technologies such as artificial intelligence, the Internet of Things, wearable devices, smartphones, and cloud computing are rapidly and widely applied to the medical system. In the case of the smart health care industry, each government around the world including the US, Europe, Japan, and China, as well as Korea, is planning and promoting industrial promotion measures, and this industry is the largest and fastest growing market among the ICT convergence markets. According to market research firm ‘Markets and Markets’ (MnM), the global digital health market is expected to reach $392 billion in 2024, growing at an average annual rate of 15.5% from $169.7 billion in 2018. The size of the domestic digital health market grew from 3 trillion won in 2014 to 14 trillion won in 2020, increasing at an average annual rate of 12.5%.<br><br>
+
+As the healthcare market grows, services such as hospitals, beauty salons, fitness, pharmacies also develop. However, many people feel uncomfortable to use them.<br>
+For example, consumers may experience inconvenience in the process of selecting a health service such as a hospital treatment. The information required to select a hospital is insufficient and it is difficult to find a hospital that specializes in a specific disease. There are also a lot of unknown and inaccurate information and advertisements mixed up online, which hinders the rational choice of consumers. Due to the vast amount of data, it is difficult to choose the right product or information.<br><br>
+
+Furthermore, the scale of overseas medical tourism is gradually increasing along with globalization, but the solution to the payment problem is still unresolved. Korea has a bigger healthcare market than many other countries and many foreigners visit Korea to use medica service. Many foreigners plan medical tourism to benefit from Korea's excellent medical technology. However, when they use Korean medical services, they experience many problems such as currency exchange, overseas remittance, etc.
+<br><br>
+
+
+</div>
+
+<div id="1b" class="top2 topmarp">&nbsp;&nbsp;&nbsp;1.2 Problems of the current medical information system</div>
+<div class="cont1">
+There is a situation that anyone who has used a hospital has experienced at least once. If you go to another hospital after receiving treatment in one hospital, you may experience the repetition of the test or Scan that you have already received from the previous hospital. The reason why the interview and test that have already been done are repeated at another hospital is that the information that has already been written has not been delivered to the new hospital. Like this the reason why medical information is not being exchanged effectively is that most current medical information systems have medical information management systems centered on medical institutions, and there are also government regulations because medical information is very important personal information.<br><br>
+
+In the current medical institution-centered management system, the reliability of medical data is not secure, and the transparency of data use is low, and the risk for data loss or hacking is also large. Under such a system, it is difficult for individuals to independently utilize their medical information, the reliability of data is inevitably low, and they must always carry the fear of personal information leakage. The number of medical data hacking cases is increasing every year. In 2015, the number of hacked medical records exceeded 112 million in the United States alone and the damage caused by it has been reported to exceed 6.2 billion dollars annually (approximately 7 trillion won).<br><br>
+
+Healthcare providers cannot easily obtain patient's past information due to the absence of medical information exchange, so, they cannot provide the best medical treatment and must do unnecessary tests repeatedly, resulting in side effects that increase patient's medical costs and burden. There are sometimes cases that medical records are often falsely entered or changed arbitrarily by healthcare providers, which becomes a social problem, but the current medical information system does not have a solution that can systematically control them.
+<br><br>
+
+</div>
+
+<div id="1c" class="top2 topmarp">&nbsp;&nbsp;&nbsp;1.3 Features of blockchain technology</div>
+<div class="cont1">
+In 2009, blockchain 1.0 era began with the birth of Bitcoin. Since then, we have experienced blockchain 2.0 era represented by Ethereum and then blockchain 3.0 era in which about 4,000 cryptocurrencies are circulating. Numerous accidents have followed with the development of blockchain. Nevertheless, it cannot be denied that blockchain is a key technology in the era of the 4th Industrial Revolution. The 4th Industrial Revolution is an era of technological convergence based on the digital revolution and it aims to become a society where everything is connected including people, things, space, etc. Blockchain is expected to provide efficiency and reliability to all industries and technology sectors by playing a key role in the 4th Industrial Revolution.<br><br>
+
+Blockchain is an information processing technology that distributes and stores data in the unit of 'block'. It has the characteristics of having the integrity and reliability of the transaction record without the intervention of third party. It distributes the transaction data in the form of a block based on P2P (peer to peer, individual and individual transactions), and stores it in the form of chains.<br><br>
+
+HEALIUM manages data more securely by introducing blockchain and separating from personal information when storing gene information analysis results. Through this, we will establish a system that gives tokens as a reward by creating a system that allows individuals to select and manage data use agreement for gene analysis results.<br><br>
+
+
+ The features of the blockchain can be divided largely into six categories.
+<br><br>
+
+<div class="subd1">
+
+<div class="subt1 textc" style="">Decentralization</div><br>
+  
+Blockchain has an irreversible and decentralized data storage method without central institutions such as companies, governments or banks. In other words, all data is distributed and stored to users of the system, so that all users become the subject of the transaction, and suppliers and consumers are directly connected and transacted without any intermediary.<br><br>
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img02.png" style="" class="topimg2">Figure 2. Centralization and decentralization<br><br>
+  </div><br><br>
+
+<div class="subt1 textc" style="">Security</div><br>
+
+Blocks containing transaction details are distributed and stored to the participants. It means that all participants have the same transaction ledger. When someone intends to forge or modify data, he/she needs to manipulate the data of all network participants.<br><br>
+
+<div class="subt1 textc" style="">Integrity</div><br>
+The hash value determines the connection between blocks in the blockchain. The next block has the hash value of the previous block. In this case, the hash value is a unique value for each block. So, changing one value in a block will result in a completely different hash value.<br><br>
+
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img03.png" style="" class="topimg2">Figure 3. Hash value<br><br>
+  </div><br><br>
+
+<div class="subt1 textc" style="">Transparency</div><br>
+Blockchain is transparent and open to anyone. All users have the entire transaction history on the network, so, all users must compare and verify the ledgers to check transaction history.<br><br>
+<div class="subt1 textc" style="">Stability</div><br>
+It has a distributed network structure, so some system errors do not affect the entire network.<br><br>
+
+
+</div>
+The advantage of storing genetic test data in the blockchain is that we can use it safely by strengthening security and constructing an ecosystem. Genetic test data is very sensitive information for individuals, and it is statistically significant information that must be kept safe, so it is desirable to open and is used for various fields. HEALIUM would like to solve these problems that look like a contradiction and to create a stable platform for the management of gene test results. In addition, we try to create an ecosystem that pursues smooth connection among individuals, medical institutions, and data utilization institutions.<br><br>
+
+
+
+
+</div>
+
+<div id="1d" class="top2 topmarp">&nbsp;&nbsp;&nbsp;1.4 Birth of HEALIUM coin</div>
+<div class="cont1">
+HEALIUM intends to build a digital healthcare system by creating a platform that promotes non-face-to-face healthcare services, personalized medical services, and consumers' participation in line with health care 3.0 era.information can be widely used from general hospital treatment to personalized-mobile health care services.
+<br><br>
+
+'Healthcare' has become a trend due to the prolonged COVID-19. We provide personalized healthcare services in line with the Post COVID-19 era, take the initiative in promoting the health of all mankind, and pursue public interest for our society and humanity.information can be widely used from general hospital treatment to personalized-mobile health care services.
+<br><br>
+
+With HEALIUM coin, we enhance accessibility and reliability by combining our business with blockchain, the key infrastructure of the 4th industrial revolution and enabling transparent management and supervision. Through the HEALIUM platform, we build an integrated medical information system centered on consumers that could not be achieved with the existing system.  That is, everyone can freely exchange healthcare information with each other, receive high-quality personalized healthcare services, and enjoy more convenient and secure healthcare benefits.information can be widely used from general hospital treatment to personalized-mobile health care services.
+<br><br>
+
+HEALIUM paradoxically achieves data integration using blockchain which symbolizes decentralization. It can integrate medical records created by medical institutions as well as medical data created by patients. It is possible to easily store not only the data of the devices that generate various medical information outside the medical institution, but also the data made by individuals. The integrated and stored medical information can be widely used from general hospital treatment to personalized-mobile health care services.
+<br><br>
+
+
+</div>
+<div id="2" class="top1 topmarp">2.	Features of HEALIUM coin</div>
+<div id="2a" class="top2 topmarp">&nbsp;&nbsp;&nbsp;2.1 Purpose of HEALIUM coin</div>
+<div class="cont1">
+Currently, cryptocurrencies in the market can solve only one or two issues of the blockchain trilemma (decentralization, security, and scalability), and it is said that satisfying all three issues at the same time is physically impossible.<br><br>
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img04.png" style="width:50%;" class=""><br>Figure 4. The trilemma of blockchain technology  </div><br><br>
+
+SOLANA chain optimally maintains and develops decentralization and security, and at the same time overcomes trilemma, the biggest challenge in the blockchain industry, based on the highest scalability. It has dramatically improved the items such as security and user accessibility compared to the existing blockchain platform.<br><br>
+
+HEALIUM coin aims to build a platform and ecosystem that reliably and safely stores and manages genetic test data by securing the blockchain source technology. Genetic test data is very sensitive and statistically useful information for an individual. Therefore, it must be safely managed and used effectively. To solve these two problems, HEALIUM intends to develop a genetic test data management platform by introducing blockchain. HEALIUM coin has the purpose of pursuing all the benefits of both individuals and statistical data utilization agencies through this platform, and composing a convenient and secure ecosystem. <br><br>
+
+</div>
+
+<div id="2aa" class="top3 topmarp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.1.1 Use of HEALIUM Coin (Genomic India Project)</div>
+<div class="cont1">
+Establishment of a blockchain-based medical information open platform that safely collects and manages medical information, including diagnostic results of uninfected specimens scattered in various institutions, and all medical information produced through various devices such as mobile phones.<br>
+We have overcome the limitation of DTC Genetic testing being currently illegal in Korea. We provide a GENOME INDIA policy platform in which the central government of India and a total of 22 national and public institutions participate. Healthcare consumers can exercise the right to own, manage and control their information medical providers may record medical information with consumer consent or obtain it for purposes such as research<br>
+The virtual asset HEALIUMCOIN used in the platform is a means given as a reward according to the contribution to information formation and provision. Not only consumers but also medical providers who contributed to the production of medical information can be compensated according to their contribution.<br>
+HEALIUM COIN can be used as a means of payment for various expenses such as medical expenses, pharmaceutical expenses, and insurance premiums at various institutions connected with HEALIUM.
+HEALIUM starts from the philosophy that the problems of the medical information system can be solved with blockchain.
+<br><br>
+<div style="margin:0% 5%;">
+△ Record in free text without overly technical medical terminology<br>
+△ Notepad document record UA/UI system application<br>
+△ Resolving problems such as slow speed and low security technology<br>
+△ Resolving the problem that medical records are scattered and disclosed across multiple medical institutions<br>
+△ Resolving the problem of limited exchange of medical information between multiple medical institutions<br>
+△Resolving inconveniences such as frequent issuance of various medical documents and re-treatment.<br>
+△Resolving inconveniences such as frequent issuance of various medical documents and re-treatment.<br>
+△ Realization of interworking of sample diagnosis results and medical-health data.<br>
+△Realization of remote-based customized healthcare based on sample diagnosis results<br>
+△ Resolving the problem of false insurance claims(Korean Financial Services Commission, annual insurance fraud detection amount of KRW 898.6 billion, false/excessive accident KRW 591.4 billion)
+<br><br>
+  </div>
+  <div class="textc">
+<img id="" src="./HEALIUM_files/en_img05.png" style="" class="topimg2"><br>Figure 5 Human Genome Project in India </div><br><br>
+
+It is for this reason that the HEALIUM project group is preparing a blockchain-based incurable disease sample diagnosis and simple insurance claim service as its main business in India.
+India's HEALIUM PASS, which will be released in the first quarter of 2022, will enable sample collection and insurance claims through a one-stop visit service.
+ <br><br>
+</div>
+
+<div id="2b" class="top2 topmarp">&nbsp;&nbsp;&nbsp;2.2	Blockchain application scope </div>
+<div class="cont1">
+HEALIUM coin ecosystem platform introduces blockchain to play the following roles.
+<div style="margin:0% 5%;">
+1)	It saves genetic test results obtained through genetic test.<br>
+2)	It serves as a server that provides data on an individual's genetic test results when requested.<br>
+However, it does not store the personal information of a specific person in the blockchain.<br>
+It just create a hash value that can be verified through personal information and secure connectivity through checking authority.<br>
+3)	It provides statistics on genetic test results.
+<br><br>
+
+</div>
+
+<div id="2c" class="top2 topmarp">&nbsp;&nbsp;&nbsp;2.3 Personal information verification process</div>
+<div class="cont1">
+We provide the personal information verification process in the following order so that people can use safely the data contained in the blockchain using the app that we will provide.
+<div style="margin:0% 5%;">
+1)	 We store the tester's private key and hash value related to the test record in the app.<br>
+2)	We request to store the tester's public key and test record hash value in the blockchain.<br>
+3)	 We convert the tester’s public key and the test record hash value to the QR code and store it in the app.<br>
+4)	We allow users to see, share, and utilize the test results in their apps.
+<br><br>
+
+
+</div>
+
+<div id="2d" class="top2 topmarp">&nbsp;&nbsp;&nbsp;2.4 Data utilization and reward system</div>
+<div class="cont1">
+The ecosystem of HEALIUM coin is composed when the genetic test result data is used as following.
+<div style="margin:0% 5%;">
+1) Users see their genetic test results.<br>
+Users see analyzed data results in the form of reports stored in the blockchain through the app.<br>
+Users request data safely on the blockchain using the private key and the test history hash value stored in the app.<br><br>
+2) Users share their genetic test results with others.<br>
+The one who has undergone a test only needs to grant the share permissions to the person (the doctor in charge, family member) who will receive the test results in the app.<br>
+In this case, those who receive the sharing data must use the app and can request the sharing data by providing their user ID.<br>
+The sharing process will utilize the form in which transfers occur in the blockchain.<br>
+In other words, the effect of sharing data appears by transmitting the test record hash value to the wallet address of the person who will receive the sharing data from the tester's wallet address.<br><br>
+3)	 You can consent to the use of your own genetic test results.<br>
+ If you agree to the use of genetic test results, you will receive HEALIUM coins as a reward for providing information. In this case, personally identifiable information is not used at all, and only limited information about age, gender, and region that can be used for statistics that is provided.<br><br>
+
+4)	Data-using institutions can utilize genetic test result statistics.<br>
+You can receive information about statistics using HEALIUM coins.<br>
+It aims to provide search functions and statistics that is well classified and have high availability. For this purpose, it uses blockchain that is specialized in statistical processing.
+<br><br>
+
+
+</div>
+
+<div id="3" class="top1 topmarp">3.	Ecosystem construction of HEALIUM coin </div>
+<div id="3a" class="top2 topmarp">&nbsp;&nbsp;&nbsp;3.1 Genetic test </div>
+<div id="3aa" class="top2 topmarp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.1 Genetic test market </div>
+<div class="cont1">
+With the advent of the healthcare 3.0 era, the healthcare flow has changed from therapeutic healthcare after the onset of a disease to preventive health care. In addition, people's interest in health care and disease prevention is increasing. Everyone has a different risk of disease, so it is necessary to perform individual genetic analysis to predict and prevent diseases.<br><br>
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img06.png" style="width:80%;" class=""><br>Figure 6. Changes in the health care paradigm  </div><br><br>
+
+According to the 'Status and Prospects of Global Genetic Test Market' report published by the Biotechnology Policy Research Center, the genetic test market is expected to grow up to 10% or more annually. This market is expected to grow nearly 2 times more from $ 6.424 million (about 7,779.5 billion won) in 2018 to $ 11.79 billion (about 14,278.7 billion won) in 2024.<br><br>
+
+
+We plan to provide DTC (Direct to Consumer) genetic test service in line with the rapidly growing global genetic test market trend. DTC genetic test service refers to a service that a genetic test institution sells genetic test services directly to consumers without a medical institution and notifies the test results. DTC genetic test could help people become more health conscious by providing personalized information about health, disease risk or other traits. It has the advantage that it is easy to collect DNA samples and consumers can receive the results quickly.<br><br>
+
+We analyze individual genetic traits through single nucleotide polymorphism (SNP). SNP usually appear in the genome at a rate of one for every 1,000 nucleotide sequences, resulting in individual genetic diversity. Each person may have A (adenine), T (thymine), C (cytosine) or G (guanine). This difference makes genetic diversity and causes genetic diseases.
+<br><br>
+
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img07.png" style="width:80%;" class=""><br> Figure 7. &lt; DNA &amp; RNA double helix structure and base&gt;<br>Picture 14. Single-nucleotide polymorphism
+<br>(Source: Naver, Lee Sang-Jun /Chung-Ang University)
+  </div><br><br>
+
+
+  We can analyze mutation. People can repair their damaged DNA or remove cells with damaged DNA using their own immunity. However, if the DNA repair function and immunity are lowered due to lifestyle, old age, etc., cells with the mutant DNA may remain without being removed.<br><br>
+
+We put together the genetic test results and provide the results by dividing them into two categories: Health and Beauty. We can know the diseases likely to occur due to genetic factors in the health results and the genetic traits such as skin aging and hair loss in the beauty results. In addition, we not only inform the risk factors, but provide care services such as personalized lifestyle guides, nutritional analysis diets, and customized cosmetic recommendations. You can even order, purchase, and order customized products on the Healium platform.
+<br><br>
+</div>
+
+<div id="3ad" class="top2 topmarp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.1.4 Pan-Brain Health &amp; Mental Health Disease Test (Genetic Test + Psychological Test)</div>
+<div class="cont1">
+This is a program that comprehensively diagnoses and treats disorders or symptoms related to neurodevelopment and neuropsychology. It targets brain and nerve disorders such as epilepsy, dementia, schizophrenia &amp; autism spectrum, and attention deficit hyperactivity disorder (ADHD). We perform genetic test and psychological test together to determine the cause of symptoms (congenital/acquired) and the quantitative/qualitative degree. In addition, we can maximize the treatment effect by performing individual customized treatment depending on the cause.<br><br>
+
+Currently, a western medical approach and a psychological approach to diagnosis of mental health are conducted separately, but in the case of the above diagnosis and treatment program, it is possible to perform an integrated approach and diagnosis. Unlike physical health we need to conduct quantitative and qualitative tests together to diagnose accurately and treat appropriately mental health. Furthermore, depending on the intervention made in the early stage of disorder, the difference in adaptation and rehabilitation of patients is big, so the appropriate intervention is essential right after the development of the disease and the mental disease test must be conducted early.<br><br>
+
+We put together genetic test results, and provide result sheets by dividing them into health, beauty, cancer, and mental disorders. We can see the diseases that can develop due to gene elements through health results, and we can also see genetic traits such as skin aging, hair loss through beauty results. You can do a comprehensive cancer health test using genes as we provide a probability of onset over various cancers through cancer results. Through mental disorder test, we identify and inform early the incidence of congenital diseases that are inherited from parents, such as epilepsy, dementia, schizophrenia &amp; autistic spectrum, ADHD (attention deficit hyperactivity disorders), etc. In addition, we not only perform genetic test, but also provide services such as customized lifestyle guides, recommended diets considering nutrients, and customized cosmetics recommendations. You can also order and purchase customized products directly within the platform.
+<br><br>
+
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img08.png" style="width:80%;" class=""><br>Figure 8. Example of cube genetic test result sheet </div><br><br>
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img09.png" style="width:80%;" class=""><br>Figure 9. Schematization of genetic testing process  </div><br><br>
+
+
+</div>
+<div id="3b" class="top2 topmarp">&nbsp;&nbsp;&nbsp;3.2 Functional medicine test </div>
+
+<div id="3ba" class="top2 topmarp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.1 Features of functional medicine test  </div>
+
+<div class="cont1">
+If it is outside the reference range specified for diagnosing a disease, it is judged that there is a disease, but even if there is a symptom, if it is within the reference range, it is judged that there is no disease. Functional medicine establishes the optimal range of the standard of health, and if it is outside of the range, it is diagnosed as mild disease. <br><br>
+-  The need for functional medicine test<br>
+In the case of general health checkup, it examines and treats only simple symptoms, so if there are various functional problems related to degenerative diseases, harmful environments, and life imbalances, it is not easy to find out the cause or treat them clearly.  It is also difficult to correct a patient's lifestyle with a short treatment time.  In addition, there is a lack of special examinations other than the existing examination items, it is because there are no test items to understand the root of diseases except general examination items.
+Functional medicine test diagnoses patients by linking internal and external diagnostic tests with functional medical tests and it identifies the causes of many modern chronic diseases. This test can analyze symptoms of unknown diseases using noninvasive samples such as hair, saliva, and urine.  Furthermore, it can analyze the functional state such as metabolism, nutrition, detoxification, and immunity as well as imbalance.<br><br>
+
+
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img10.png" style="width:80%;" class=""><br> Figure 10. Reference range &amp; optimal range of functional medicine test  </div><br><br>
+-	Organic acid test : A snapshot of human metabolism that analyzes neurotransmitters, metabolic processes, toxin accumulation, detoxification and intestinal bacteria balance through energy metabolism and nutritional imbalance analysis.<br>
+-	Salivary hormone test:  Analyze chronic stress and hormonal status by measuring adrenal hormones in saliva.<br>
+-	Fatty acid metabolism test:  Balance analysis of fatty acids required for metabolism, including cell membrane, neurology, hormone generation, vitamin absorption, etc.<br>
+-	Oxidative stress test:  Evaluation of the degree of oxidative stress that causes imbalance due to overproduction of oxidizing substances in the body or lack of antioxidants by measuring the number of free radicals and antioxidant power<br>
+-	Hair heavy metals and minerals test: Analysis and measurement of the degree of contamination of toxic elements such as mercury, lead, aluminum, arsenic, and cadmium and the metabolism of minerals necessary for bodily functions using hair.<br>
+-	Food allergy:  Measurement of IgG antibodies to foods that cause delayed-type hypersensitivity reactions that appear gradually after food intake.<br><br>
+<div class="textc">
+<img id="" src="./HEALIUM_files/en_img11.png" style="width:80%;" class=""><br> Figure 11. &lt; Example of functional medicine test results &gt; </div><br><br>
+  </div>
+  <div id="3bb" class="top2 topmarp">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.2.2 Microbiome </div>
+
+  <div class="cont1">
+  Microbiome is a combination of microbe, which inhabits the human body, and the biome(ecosystem). It refers to the microorganisms living in our body and their genetic information. Microbiome regulates immune function and produces various metabolites. Through research, it has been found that not only obesity, diabetes, atopy, but also cancer, autoimmune diseases, and depression are associated with the microbiome. We can perform comprehensive genetic health checkup including genetic test and microbiome test.<br><br>
+
+HEALIUM provides a service that can also test the microbiome. We provide disease risk degree and personalized dietary guidelines by testing the entire intestinal microflora at once, utilizing the latest next-generation sequencing method (NGS), one of the gene analysis technologies, and Real-Time PCR.<br><br>
+
+HEALIUM has prepared a project to check the status of intestinal microbes and changes depending to the lifestyle through the establishment of microbiome database and continuous research.<br><br>
+
+The reason other companies have recently entered the microbiome business is that research has revealed the potential of the relevant market and created several business models. According to market research firm Frost &amp; Sullivan, the global microbiome market size is expected to increase to $108.7 billion (about 127 trillion won) in 2023.<br><br>
+
+In addition, the person-in-charge at the Biotechnology Policy Research Center said, "As the association with diseases has revealed, microbiome emerged as an innovative treatment technology," and "the technology will expand to various areas including microbiome diagnosis, treatment, and development of medicines.”<br><br>
+
+Microbiome is a more plausible term for intestinal microorganisms. Strictly speaking, microbiome can be expressed as a broader 'group of microbes' rather than intestinal microorganisms. It is called 'probiotics' as a familiar concept for us, which is known to be beneficial to our bodies. Various fruits and vegetables, known as probiotics food, are 'prebiotics'.<br><br>
+
+The concept of the connection between health and microbiome, known for a health functional food as a probiotic, is simple. It is connected to eat bacteria beneficial to our body in the form of pills or powdered food. It also means that we try eating prebiotics so that these bacteria can live well in our intestines. Furthermore, we are researching cosmetics products that contain probiotics and prebiotics.<br><br>
+
+Recently, many pharmaceutical companies are trying to develop this microbiome as a medicine. In fact, recent basic scientific research is showing the connection between the microbiome and chronic diseases, metabolic diseases, heart disease, and cancer. The research to develop and utilize the related microbiome as medicines is also underway. Of course, no drugs have been approved yet, and only a few pipelines are undergoing phase 3 research. Cube Medical will continue to conduct research to manage health with the microbiome in line with this trend.
+<br><br>
+
+  </div>
+  <div id="3c" class="top2 topmarp">&nbsp;&nbsp;&nbsp;3.3 Information sharing platform   </div>
+  <div class="cont1">
+  As people get more and more interested in the healthcare field, their desires for information are getting stronger. People are sharing information of many hospitals, clinics, healthcare and beauty on the existing platform. However, due to too much information, consumers are having a hard time selecting the information they are looking for. People are also sharing information thoughtlessly without verifying information and it is also difficult to obtain accurate information because advertisements that only show the advantages of a specific product or service are shared as if it were true.<br><br>
+
+We plan to provide an information sharing community of consumers within the HEALIUM platform so that they can share more accurate information with each other. Through voting and opinion participation, the reliability of information is increased, and the information provider will receive incentives by providing reliable information. We will provide a comprehensive sense of health care services, including medical, beauty, fitness, and psychological counseling by forming a network that consumers are actively participating, providing information, and gaining information.
+<br><br>
+</div>
+
+<div id="4" class="top1 topmarp">4.	Where to use </div>
+<div id="4a" class="top2 topmarp">&nbsp;&nbsp;&nbsp;4.1 Genetic analysis   </div>
+<div class="cont1">
+We plan to make it possible to for consumer to pay for our genetic analysis test with HEALIUM coins. We apply HEALIUM coin technology to HEALIUM homepage and applications to enable consumers to deposit HEALIUM coins that they purchase from external exchange and easily pay for gene analysis test. Personal genetic information is health information, and it is very sensitive information. We can store and manage genetic information more safely by using security technology of blockchain.<br>
+In addition, we recommend cosmetics, health functional foods, etc. and help people purchase them according to the results of the test. We provide services including other dietary habits and behavioral guidelines to meet the results of test in line with customers' gene health.
+<br><br>
+  </div>
+  <div id="4b" class="top2 topmarp">&nbsp;&nbsp;&nbsp;4.2 Use within community  </div>
+<div class="cont1">
+We plan to create communities to share information between people interested in health care as well as gene analysis test results through HEALIUM application. People who provide information within the community receive the value evaluation for the information that other users make, and they are rewarded with HEALIUM coins. Users who participated in the evaluation also receive rewards for their opinions with HEALIUM coins.<br><br>
+
+  </div>
+
+
+
+  <div id="4c" class="top2 topmarp">&nbsp;&nbsp;&nbsp;  4.3 Donation to International Association of Incurable Diseases   </div>
+<div class="cont1">
+The International Association of Incurable Diseases is a non-profit social organization established to help patients suffering from incurable diseases have rights and hope for a better life. Korea started ‘medical expense support project for patients with rare and incurable diseases' in 2001. Support projects are underway to reduce the burden of high-cost medical expenses of people who are suffering from incurable diseases, including chronic renal failure, muscle disease, hemophilia, and Gaucher disease.<br><br>
+
+Korea added support for Crohn disease and Behcet’s disease in 2002 and multiple sclerosis and amyloidosis in 2003. Korea has been continuously expanding its support and has begun to support 133 rare incurable diseases since 2018.<br><br>
+
+HEALIUM will actively be involved in this support and will contribute generously to the International Association of Incurable Diseases. 
+
+<br><br>
+
+  </div>
+  <div id="4d" class="top2 topmarp">&nbsp;&nbsp;&nbsp;4.4 Collaboration with medical institutions    </div>
+<div class="cont1">
+Doctors and experts in the field participate in the community and answer on the areas necessary for more professional information including healthcare, disease, etc., and consumers and doctors are directly connected Consumers can get professional and concrete answers, and doctors can promote hospitals to promote marketing effects.<br>
+We allow consumers to purchase products recommended within the platform and use services more conveniently from information sharing to product purchases by signing a partnership with shopping malls. We also plan to make mobile payment with HEALIUM coins when patient and hospital are matched within the platform.
+
+
+<br><br>
+  </div>
+  <div id="5" class="top1 topmarp">5.	HEALIUM Coin Ecosystem</div>
+  <div class="cont1">
+  <div class="textc">
+<img id="" src="./HEALIUM_files/en_img12.png" style="width:80%;" class=""><br>Figure 12. HEALIUM Coin Ecosystem</div><br><br>
+
+HEALIUM provides a market platform within the application by making an agreement with various product sellers. Thus, consumers can purchase personalized products that are recommended by genetic test results with HEALIUM coins in the market through HEALIUM application.<br><br>
+  </div>
+
+
+  <div id="6" class="top1 topmarp">6.	Metaverse project linked to health and information management system</div>
+<div id="6a" class="top2 topmarp">&nbsp;&nbsp;&nbsp;6.1 Bio-Metaverse   </div>
+<div class="cont1">
+The healthcare economy is closely linked to the metaverse economy in terms of future industries. Most of the future industries will come into existence and grow based on blockchain technology and big data.<br>So, what exactly is the Metaverse?<br><br>Metaverse is a compound word of ‘meta’ meaning virtual and transcendence and ‘universe’ meaning the real world, and it refers to a new world that is superimposed on the world we live in now.<br>Metaverse is often divided into four types: virtual reality (VR), augmented reality (AR), lifelogging, and mirror worlds. <br><br>  The metaverse is the junction between the real and the virtual, When these two meet, it can be seen as a generic term for economic activities or certain actions. Therefore, it is appropriate to view the metaverse as a comprehensive phenomenon or concept rather than as a single technology.<br><br>The metaverse has emerged as a trend as the untact society continues and non-face-to-face basics become common after the Corona crisis, and the metaverse, which transcends time and space, is rapidly permeating into our daily life with the development of IT technology and infrastructure such as smartphones.<br><br>Then, what is the powerful medium that connects the virtual world and the real world? ‘Rider’ (delivery) and ‘virtual currency’. A rising company in that regard is a delivery-related logistics company that connects online and offline. These companies themselves become connectors that connect the online and offline worlds.<br><br>Metaverse is also foreshadowing a dramatic change in terms of the transformation of the existing currency. Currently, it is only locally distributing virtual currency corresponding to games and NFT transactions, but it is inevitably linked to the transition to digital currency that central banks of each country are attempting.<br><br>Healium (www.healium.co.kr) is providing a business model along with Bio-Metaverse to provide services for data owners and data users by applying the genome market and blockchain technology.<br>Therefore, those who are interested in healthcare can share information and participate as a profitable business that can be rewarded for value evaluation within the community.
+
+<br>
+<br><br>
+
+
+<style>
+  .co999 {color:#999 !important;}
+</style>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_01.png" style="width:80%;" class=""><br>Genetic Testing Transaction Case (US company 23andMe case)
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_02.png" style="width:80%;" class=""><br>Efficacy of Genetic Testing
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_03.png" style="width:80%;" class=""><br>Usage of Healium Cash
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_04.png" style="width:80%;" class=""><br>Genetic Data Blockchain Platform
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_05.png" style="width:80%;" class=""><br>Utilization of Genetic Data
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_06.png" style="width:80%;" class=""><br>Genetic Testing Market Prospect
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_07.png" style="width:80%;" class=""><br>HEALAND BIO-METAVERSE
+
+</div><br><br>
+
+<div class="textc co999">
+<img id="" src="./HEALIUM_files/en_img06_08.png" style="width:80%;" class=""><br>Healium Ecosystem
+
+
+</div><br><br>
+
+
+<br><br>
+  </div>
+  <div id="6b" class="top2 topmarp">&nbsp;&nbsp;&nbsp;6.2 Detailed project plan  </div>
+<div class="cont1">
+Project overview: Establishing a virtual reality world that responds to public health and health management by continuously collecting health information of the subject during childbirth and childcare<br><br>
+
+1). Register the child character you are raising on the metaverse<br>
+2). Enter the characters' real-life dietary information into the management system in the form of a parenting note<br>
+3). Real-time check of the health status of the characters based on the information entered into the system.<br>
+4). Reading the character growth process reflected in the metaverse character development system<br>
+5). Communicate notification information to characters with health problems in connection with nearby hospitals or health institutions.
+<br>
+
+
+  </div>
+  <div id="6c" class="top2 topmarp">&nbsp;&nbsp;&nbsp;6.3 Expected effect  </div>
+<div class="cont1">
+1). Providing health management tools with entertainment and fun elements to the people who need continuous health care.<br>
+2). Improving public health interest by revitalizing online culture related to health communities.<br>
+3). It has a sound public interest in the metaverse worldview that can be overly commercial or can lead to entertainment, entertainment, and speculation. And by introducing a metaverse system equipped with entertainment elements linked to games and virtual reality, it took a leading position in the metaverse business with public interest<br>
+4). Enhancing national competitiveness through continuous improvement of people's health management habits.
+<br><br>
+
+
+
+  </div>
+  <div id="7" class="top1 topmarp">7. HEALIUM ROAD MAP </div>
+  <div class="textc">
+  <img id="" src="./HEALIUM_files/en_img14.png" style="width:100%;" class="">Figure 14. HEALIUM ROAD MAP</div><br><br>
+
+<div id="8" class="top1 topmarp">8.	TEAM MEMBERS </div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>JITENDRA SHARMA</b>
+        <img id="" src="./HEALIUM_files/img09_08.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="margin-bottom:30px; padding-left:30px;">
+        <li>(Current) Chairman of the Board of Directors of AMTZ, National Bio-Medical Industrial Complex of India</li>
+        <li>(Current) Co-Chairman of Standing Committee of Medical Industrial Complex, Department of Life Sciences, India</li>
+        <li>(Former) General Manager of LAB, WHO (World Health Organization) Geneva Headquarters </li>
+        <li>(Area of expertise) Health care policy, Medical FOOD, health license</li>
+        <li>Held AMTZ &lt;WHO International Forum&gt; </li>
+        <li>Established AMTZ &lt;KOREA ZONE&gt; </li>
+        </ul>
+        <b class="">Going to be appointed as a health care advisor of HEALIUM in India</b>
+    
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>SIMAR SURI</b>
+        <img id="" src="./HEALIUM_files/img09_09.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="margin-bottom:30px;  padding-left:30px;">
+        <li>(Current) Spokesperson of VOLUNTARY HEALTH ASSOCIATION OF INDIA (Established India's largest health and welfare foundation in 1970.</li>
+
+        <li>4,500 member companies of the Health and Medical Foundation in 27 states nationwide)</li>
+        <li>(Current) Lawyer and secretary general of anti-smoking campaign for children </li>
+        <li>(Current) Advisor to many Korean companies </li>
+        <li>(Current) Advisor to AMTZ KOREA </li>
+              
+      </ul>
+        <b>Going to be appointed as legal advisor of HEALIUM in India</b>
+        
+
+
+
+
+
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>DEVLINA CHAKRAVARTY</b>
+        <img id="" src="./HEALIUM_files/img09_10.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="margin-bottom:30px;  padding-left:30px;">
+        <li>(Current) Director of ARTEMIS Hospital Chain</li>
+
+        <li> (A hospital chain famous for its best reputation and reliability in India)</li>
+        <li> &lt;Apollo Tire Group&gt; affiliated organization </li>
+        <li>(Current) Prime Minister Modi’s Medical Advisory Group </li>
+        <li>(Currently) Member company of INDIA BUSINESS FORUM </li>
+        <li> Area of expertise) Radiation therapy, hospital administration </li>
+              
+      </ul>
+        <b>Going to be appointed as a medical health advisor of HEALIUM in India</b>
+        
+
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>HUE SUNGMIN</b>
+        <img id="" src="./HEALIUM_files/img09_01.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="padding-left:30px;">
+        <li> Current) HEALAND, CEO</li>
+
+        <li> Corporate education consultant</li>
+        <li> Establishment of network business education design</li>
+        <li> Blockchain business</li>
+        <li> Online platform business</li>
+  
+        <li> Key Performance: SK Hynix, Hyundai Steel, National Diplomacy Service, LG Uplus, Univera, etc.  </li>
+      </ul>
+        <b> </b>
+      
+
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>JEON YONGSEOK</b>
+        <img id="" src="./HEALIUM_files/img09_03.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="padding-left:30px;">
+        <li>Bachelor of Science in New Materials Engineering, Sungkyunkwan University </li>
+
+        <li> Graduated from Sungkyunkwan University with a Ph.D. in Biocosmetics</li>
+        <li> (Former) Senior Researcher, Cosmetic Research Center, Boryeong Pharmaceutical Central Laboratory </li>
+        <li> Participating Researcher of the Institute of Technical Standards</li>
+        <li> (Former) Senior Researcher, Kolon Life Sciences Central Laboratory, Environment Department    </li>
+        <li> bactericide-related participating researcher</li>
+        <li> (Former) Representative of JNPBIO Co., Ltd. (Health Fermented Beverage Processing Company)</li>
+        <li>(Current) Representative of JNP Nature Co. (Cosmetics Manufacturing, Material Manufacturing)</li>
+        <li>2018 2018 Venture Department Challenges 2020 Health and Welfare Department 3-year Challenges </li>
+        <li>2021 TIPS</li>
+      </ul>
+        <b> </b>
+        
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>CHO TAI HYONG</b>
+        <img id="" src="./HEALIUM_files/img09_05.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style=" padding-left:30px;">
+        <li>Graduated from Korea University Medical School </li>
+        <li>Master of Medicine, Graduate School of Neurosurgery, Korea University </li>
+        <li>Doctor of Neurosurgery, Graduate School of Medicine, Korea University (MBA) </li>
+        <li>Graduated from Korea University's Graduate School of Business Administration </li>
+        <li>Specialist , Faculty of Medicine, Korea University </li>
+        <li>a lecturer in neurosurgery at the University of Wisconsin M Medical School of Medicine  </li>
+        <li>Professor of Orthopedic Surgery, RUSG Medical University </li>
+        <li>Deputy Professor of Neurosurgery, Anam Hospital, Korea University </li>
+        <li>Professor of Neurosurgery at Korea University Anam Hospital </li>
+        <li>Advisory Committee on the Ansan Branch of the Labor Welfare Corporation </li>
+        <li>Health Insurance Corporation Consultant </li>
+        <li>Court physical examination committee member </li>
+        <li> Senior Councillor, Labor Welfare Corporation Headquarters</li>
+        <li> teacher's insurance adviser</li>
+        <li> SSIS Advisory Committee</li>
+        <li> LG Fire Consultant</li>
+        <li> Samsung Fire &amp; Marine Consultant</li>
+
+      </ul>
+        <b> </b>
+        
+
+      </div>
+    </div>
+       
+    <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>KIM HEETAE</b>
+        <img id="" src="./HEALIUM_files/img09_02.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style=" padding-left:30px;">
+        <li>FORMER) <br>
+Health Policy Division, Health and Welfare Bureau, Gyeonggi Provincial Government<br>
+Director of Planning and Coordination at Gyeonggi Provincial Medical Center Headquarters (six provincial hospitals affiliated with Gyeonggi Provincial Medical Center Headquarters<br>
+Served as a member of the Public Hospital Evaluation Committee of the Ministry of Health and Welfare  </li>
+        <li>Current) Cube Medical CEO </li>
+        <li>President of the International Association of Incurable Diseases </li>
+        <li>SME Technology Development Support Project Evaluation Committee </li>
+        <li>member of the Health Administration Society  </li>
+        <li>member of the Korean Medical Engineering Society   </li>
+        <li>Minister of Health and Welfare (Minister of Health and Welfare) Awarded No. 27400  </li>
+        <li>Minister of Government Administration and Home Affairs (Excellent management of local medical centers) No. 12037 Etc.   </li>
+        
+              
+      </ul>
+        <b> </b>
+        
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+
+    <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>Jerome Choi</b>
+        <img id="" src="./HEALIUM_files/img09_04.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="padding-left:30px;">
+        <li>Master: Sungkyunkwan University Graduate School EDPS (1997) </li>
+
+        <li>PhD: Sungkyunkwan University Statistics (Yuin Univ, honor PhD (2007) </li>
+        <li>명예: Shepherd University Honor PhD. (2007) </li>
+        <li>Honors: Shepherd University Honor PhD. (2007)<br>(Big data analysis, statistics/game lectures, and director of the affiliated big data analysis research institute) </li>
+        <li>Seoul Digital University Multimedia Department (Game Major) Dean/Professor<br>
+(Artificial intelligence, mathematics, game planning and game programming, game production, lectures, administration, research) </li>
+        <li>Gyeonggi-do Media Evaluation Committee (Big Data Field, 2017~2021)</li>
+        <li>Midwest University e-sports game major head professor and e-sports technology research center director (2021~present) </li>
+        <li>International Blockchain Technology Promotion Association Standing Chairman (2021~Present)</li>
+        <li>International eSports Technology Association Technology Technology Chairman (2021 ~ present, Chairman Missouri State House of Representatives Speaker Richard West) </li>
+
+              
+      </ul>
+        <b> </b>
+        
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>Ahn hoon </b>
+        <img id="" src="./HEALIUM_files/img09_06.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style=" padding-left:30px;">
+        <li>Director of operation of Healand Co., Ltd.</li>
+        <li>(Current) Healium Project PR Media Manager </li>
+        <li>Bachelor of Journalism/Documentation, Department of Photography, Chung-Ang University </li>
+        <li>(Former) Photo Correspondent for Hankyung Business, Korea Economic Daily </li>
+        <li>(Former) Herald Economic Daily / Korea Herald photo manager </li>
+        <li>Correspondent to the Supreme Prosecutors' Office, Correspondent to the National Assembly, Correspondent to the Blue House  </li>
+        <li>Awarded the 2007 ‘Photographer’s Award’ </li>
+        <li>Awarded the 2008 ‘Korea Press Photography Excellence Award’</li>
+        <li>2010 ‘Exemplary Reporter Award’</li>
+        <li>Selected by the 2012 London Olympics Journalists Association Pool. </li>
+       
+              
+      </ul>
+        <b> </b>
+        
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+        <div class="flexw flexitemsc flexjuc">
+      <div class="flex40 textc">
+        <b>AHMAD SARFARAZ (Faraz)</b>
+        <img id="" src="./HEALIUM_files/img09_07.png" style="" class="topimg2">
+      </div>
+      <div class="flex60 textc">
+        <ul class="dotli" style="padding-left:30px;">
+        <li>Currently, working with global business team at Healand Co., Ltd. </li>
+        <li>Former overseas business lead at 3C Taeyang, South Korea </li>
+        <li>Former part time administrative assistant at KDI school of Public Policy and Management </li>
+        <li>Former project coordinator at Development Knowledge Open Access Project (DKOA), KDI School of Public Policy and Management </li>
+        <li> Former Monitor and auditor of Tourist Information Center at Seoul Tourism Association.</li>
+        <li> Former volunteer and interpreter at various events organized by Korean Culture Centre in India. </li>
+        <li>Graduated from Jawaharlal Nehru University, New Delhi, Korean Studies</li>
+        <li>Awarded Prestigious Korean Government Scholarship for masters degree (GKS-KGSP) </li>
+        <li>Postgraduate from KDI School of Public Policy and Management, South Korea</li>
+        <li>Master of Development Policy, MDP (Trade and Industry Policy &amp; Sustainable Development)</li>
+        <li>Global Business advisor of HEALIUM in India</li>
+  
+      </ul>
+        <b> </b>
+        
+      </div>
+    </div>
+        <div style="border-bottom:1px solid #eee; width:100%; margin:2% 0%;"></div>
+
+  <div id="9" class="top1 topmarp">9.	Legal Notice, Disclaimer &amp; Limitation of Liability </div>
+<div class="cont1">
+This white paper only aims to deliver information, and it is not recommendation or proposal for investment, and it is just for investors' understanding, so, it is prohibited from using for other purposes.<br>
+This white paper is not a contract or agreement, so it can be changed at any time depending on the discretion of the company (including the company and affiliates, individuals, advisory members, agencies, etc., that behave on behalf of our company). In this case, the company has no obligation to notify or provide notice of any amendment, change, or revision of this white paper.<br>
+Even if we do the best efforts to accurately provide the latest information on HLMs in this white paper, we can change freely and actively the information according to the progress and development of technology without prior notice. We also do not guarantee any warranty of the appropriateness, accuracy, and completeness of the information, and are not responsible for the absence of specific information.<br>
+This white paper contains forward-looking statements such as “expectation”, “intention”, “plan”, “will”, “planning”, “goal”, “purpose”, and “can do”. It also suggests future plans through roadmaps. These forward-looking statements include known or unknown risks and uncertainties, and some incidents or the results may be quite different from the forward-looking statements included in the white paper.<br>
+The company promises to faithfully fulfill the contents of this white paper to make efforts to develop HLM, but such promises do not guarantee the inherent value of HLM, certain value or price rise, and profits. In addition, HLM is not part of our equity capital and does not have such rights and powers.<br>
+The information specified in this white paper has not been reviewed or approved by any regulatory authority, and therefore, the distribution of the white paper does not mean that the relevant laws and regulatory requirements are complied.<br>
+Cryptocurrency is not fiat currency. It has big price volatility and can be affected seriously by market conditions, government regulation, technical limits, etc. Regulators around the world are also very cautious about crypto-related businesses and operations. A related regulatory measure or investigation in this connection may affect our business and may delay or interfere with the development of our future business.
+Therefore, the cryptocurrency investors must decide to invest in cryptocurrency according to their own judgment, and they are responsible for their investment loss. If necessary, investors must decide their investment after consulting with experts on technology, law, finance, tax, or other issues under their responsibility.<br>
+The company do not have any responsibility for the direct or indirect losses of investors caused by the information provided in this white paper.
+<br><br>
+
+
+</div>
+
+
+
+
+
+
+
+      </div></div></div></div></header>
+
+      <main>
+
+  
+      </main>
+
+      <footer>
+
+        
+      </footer>
+
+      <script>
+
+        (function($) {
+          'use strict';
+
+          // call our plugin 모바일 closeOnClick: !1 expanded: !1 하고싶음
+          
+
+          var Nav = new hcOffcanvasNav('#main-nav', {
+            disableAt: false,
+            customToggle: '.toggle',
+            levelSpacing: 40,
+            navTitle: 'WHITEPAPER',
+            levelTitles: true,
+            levelTitleAsBack: true,
+            pushContent: '',/*#container 넣으면 밀려남*/
+            labelClose: false
+            
+           
+
+          });
+
+          // add new items to original nav
+          $('#main-nav').find('li.add').children('a').on('click', function() {
+            var $this = $(this);
+            var $li = $this.parent();
+            var items = eval('(' + $this.attr('data-add') + ')');
+
+            $li.before('<li class="new"><a href="#">'+items[0]+'</a></li>');
+
+            items.shift();
+
+            if (!items.length) {
+              $li.remove();
+            }
+            else {
+              $this.attr('data-add', JSON.stringify(items));
+            }
+
+            Nav.update(true); // update DOM
+          });
+
+          // demo settings update
+
+          const update = function(settings) {
+            if (Nav.isOpen()) {
+              Nav.on('close.once', function() {
+                Nav.update(settings);
+                Nav.open();
+              });
+
+              Nav.close();
+            }
+            else {
+              Nav.update(settings);
+            }
+          };
+
+          $('.actions').find('a').on('click', function(e) {
+            e.preventDefault();
+
+            var $this = $(this).addClass('active');
+            var $siblings = $this.parent().siblings().children('a').removeClass('active');
+            var settings = eval('(' + $this.data('demo') + ')');
+
+            if ('theme' in settings) {
+              $('body').removeClass().addClass('theme-' + settings['theme']);
+            }
+            else {
+              update(settings);
+            }
+          });
+
+          $('.actions').find('input').on('change', function() {
+            var $this = $(this);
+            var settings = eval('(' + $this.data('demo') + ')');
+
+            if ($this.is(':checked')) {
+              update(settings);
+            }
+            else {
+              var removeData = {};
+              $.each(settings, function(index, value) {
+                removeData[index] = false;
+              });
+
+              update(removeData);
+            }
+          });
+          
+        })(jQuery);
+
+
+      </script>
+
+    </div>
+
+  
+</body></html>
