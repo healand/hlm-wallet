@@ -1,41 +1,133 @@
-# HEALIUM - PLANNING FOR THE FUTURE
+# Healland Project
 
-![HLM](/images/hlm-bg.png "HLM")
+- API server (this)
+- web-apply : Page used before app launch (sign up, log in, check coin information)
+- app : Blockchain management app
+- admin page
 
-## NEW GENERATION OF BLOCKCHAIN
+---
 
-*The HEALIUM project is an attempt to improve the healthcare market
-by applying blockchain technology.
-Through this project, we will create a virtuous cycle in which
-all participants in the ecosystem have reasonable opportunities
-and rewards, and through this, the usefulness and
-development of the ecosystem can be achieved spontaneously.*
+# Healand-Server
 
-*We utilize ‘decentralized’ solutions through blockchain
-and various new possibilities based on trust in the HEALIUM system.
-Through this, we will change the ecosystem in a healthy direction
-by specifying the components, processes and values of the healthcare market.*
+---
 
+## Environment
 
-## HLM ECOSYSTEM
+### Enviroment
 
-> DNA ANALYSIS PLATFORM : HLM tokenomics provides where coin users and participants can communicate and exchange in order to increase the value of the coin
+- Java 11
+- Spring framework boot 2.7.7
+- swagger 3.0
+- logback 1.2.9
+- amazone sdk 2.17.75
 
-> USE within the COMMUNITY : By installing HLM coin technology on CUbe Medical website and application, consumers will be able to deposit HLM coins purchased on external exchanges into cube medical accounts to easily pay for genetic analysis tests.
+### IDE
 
-> BIO HOTEL : Foreign tourists staying at the Bio Hotel can use HLM Coins to pay for all health care systems used in the hotel including hotel accommodation. With HLM coin payment, you can save money on currency exchange fees, and since the amount of remittance is not limited, remittance is possible regardless of the amount
+- IntelliJ
 
-## HLM TOKEN INFO
-| Name(Symbol)  | HEALIUM(HLM) |
-| ------------- |:-------------:|
-| Network      | Tron     |
-| Total Supply      | 1,000,000,000     |
-| Contract      | TJr7496gExoz1rSmYaznANXZ8hsj1LSXC6     |
+---
 
-## Links
+## Deployment
 
-[Whitepaper](https://healiumglobal.com/pages/en.php)
+### AWS
 
-[CoinMarketCap](https://coinmarketcap.com/ko/currencies/healium/)
+- Seoul Region
+  - ec2 + elasticIP
+- Tokyo Region
+  - SMS
 
-[Mobile App](https://play.google.com/store/apps/details?id=com.bartender_app&hl=en)
+---
+
+## How to run
+
+### Development
+
+Linux cli
+
+```jsx
+$ cd [PROJECT_JAR_DIR_PATH]
+$ java -Dspring.profiles.active=[yaml] -jar [.jar file name] &
+```
+
+### Build
+
+Linux cli
+
+```jsx
+$ cd [PROECT_ROOT]
+$ chmod +x gradlew
+```
+
+---
+
+## Git
+
+### Branch
+
+- **main**
+  - Production (real server) distribution branch
+-**stage**
+  - Staging (test server) distribution branch
+- **dev**
+  - Development (development, local server) branch for testing and application of developments
+
+By default, all modifications are done in dev and dev sub-branches.
+
+Organize what needs to be distributed, merge it into the master and staging branches, and then deploy.
+
+Ignore configuration (.yaml) files.
+
+### Add yaml file
+
+1. Add yaml file (application-{coinName})
+2. Change yaml port
+
+### Add Log settings
+
+1. Add <springProflie> to logback-spring.xml
+
+---
+
+## Structure
+
+### Controller
+
+- Received through Dao and delivered to Service
+- Normally, the transformation from Entity to Dao is done by the Controller.
+
+### Service
+
+- Responsible for complex business logic
+- Typically, a Service can have multiple DaoServices, but cannot have other Services.
+- Cannot have a repository
+
+###DaoService
+
+- Responsible for the most basic logic that goes directly to the DB
+
+### Exception
+
+- Commonly handled in CustomResponseStatusException
+
+---
+
+## Concept
+
+### Member
+
+- Customers (investors) of the system
+
+### Wallet
+
+- General wallet: Wallet containing actual coins
+- Lockup wallet: A wallet that does not contain actual coins and exists only as data
+
+### History
+
+- Record coin changes in the wallet with the wallet records
+- Applies to both regular wallets and locked-up wallets
+
+###Transfer
+
+- Transaction records of actual coins coming and going
+- Only applies to general wallets because it only records records of actual coin changes.
