@@ -101,7 +101,7 @@ Ignore configuration (.yaml) files.
 - Typically, a Service can have multiple DaoServices, but cannot have other Services.
 - Cannot have a repository
 
-###DaoService
+### DaoService
 
 - Responsible for the most basic logic that goes directly to the DB
 
@@ -127,7 +127,7 @@ Ignore configuration (.yaml) files.
 - Record coin changes in the wallet with the wallet records
 - Applies to both regular wallets and locked-up wallets
 
-###Transfer
+### Transfer
 
 - Transaction records of actual coins coming and going
 - Only applies to general wallets because it only records records of actual coin changes.
