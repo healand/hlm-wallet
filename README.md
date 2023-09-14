@@ -1,4 +1,4 @@
-# Healland Project
+# Healand Project
 
 - API server (this)
 - web-apply : Page used before app launch (sign up, log in, check coin information)
